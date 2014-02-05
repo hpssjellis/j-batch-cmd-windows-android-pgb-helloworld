@@ -1,4 +1,3 @@
-
 set ANT_HOME=C:\phonegapmain\ant
 set ANDROID_HOME=C:\phonegapmain\androidDec2013\sdk
 set ANDROID_SDK_HOME=%USERPROFILE%
