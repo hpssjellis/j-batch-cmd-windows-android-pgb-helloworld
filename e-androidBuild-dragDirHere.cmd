@@ -1,4 +1,3 @@
-
 set ANT_HOME=C:\phonegapmain\ant
 set ANDROID_HOME=C:\phonegapmain\androidDec2013\sdk
 set ANDROID_SDK_HOME=%USERPROFILE%
@@ -15,4 +14,4 @@ set CLASSPATH=
 
 cd %1
 
-cca build android > ../xoutput.txt 2>&1
+phonegap build android > ../xoutput.txt 2>&1
