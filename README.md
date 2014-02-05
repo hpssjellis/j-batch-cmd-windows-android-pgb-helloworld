@@ -12,20 +12,26 @@ Here is an example set of batch/cmd files to simplify using phonegap on windows 
 
 a-run.cmd     a simple autofill DOS window with hints how to test if phonegap is installed correctly
 	
-b-setAndRun.cmd     If you have no access to the PATH or do not want to mess with it. This file gives you another way
+b-setAndRun.cmd     If you have no access to the PATH or do not want to mess with it. This file gives you another way. You have to find the programs:git, android, node, ant, npm and possibly phonegap and plugman on your computer.
 	
 c-gitVersion      Example of how to make command files that auto check if the paths are correct for each program
 	
-d-androidCreate.cmd    command file to make your phonegap folders. Edit the first line to include your App name.
+d-androidCreate.cmd    command file to create your phonegap project. Edit the first line to include your App name.
 	
-e-androidBuild-dragDirHere.cmd    Batch/cmd file to automate creating a phonegap project (remember to drag the folder on top of this file)
+e-androidBuild-dragDirHere.cmd    Batch/cmd file to automate building your phonegap project (remember to drag the folder on top of this file)
 	
 	
 f-pluginDevice-dragDirHere.cmd   Adds a pluggin remember to drag the folder on top of this file.
+
+
+g-networked.cmd  Example of how a networked or USB drive can make things easier. This file is not complete but would be used with b-setAndRun.cmd if your system is running from a networked environment or if you have your files on a USB drive.
+
+
+
 	
-All output from every file goes into the auto created xoutput.txt file. You have to continuously close and re-open this file but any of the output can now be copied to help with google searching for solutions. 
+All output from every file goes into the auto created xoutput.txt file. You have to continuously close and re-open this file but any of the output can now be copied to help with google searching for solutions. Also the DOS files will auto close even if there is an error, but the error information will be in the xoutput.txt file. I set wordpad to default to read .txt files since wordpad has better formatting than Notepad for phonegap files.
 	
-Note that you do not have copy these files into the correct directories, all the files can stay in your main folder that holds all your phonegap projects.
+Note that you do not have to copy these files into the correct directories, all the files can stay in the main folder that holds all your phonegap projects. Just remember to drag the folders onto the Build and pluggin cmd files.
 	
 	
 
