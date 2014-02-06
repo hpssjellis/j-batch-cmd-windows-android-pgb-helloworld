@@ -34,6 +34,13 @@ All output from every file goes into the auto created xoutput.txt file. You have
 Note that you do not have to copy these files into the correct directories, all the files can stay in the main folder that holds all your phonegap projects. Just remember to drag the folders onto the Build and pluggin cmd files.
 	
 	
+	
+	
+Final note. When using batch commands it is often easy to add to the end of the path command the variable %PATH% to attach the old path. That is very helpful except when debugging your batch files since the command is recursive if fired from the command line and you end up with a huge PATH with multiple entries. Works fine after debugging. Still not sure about folder file names with spaces. Surrounding them with double quotes sometimes seems to work. I just use the dir /x command to find the short file/dir names. 
+
+Try http://rocksetta.com/html-to-phonegap-to-app/ for some other suggestions.	
+	
+	
 
 ************************************************************************************************************
 
