@@ -4,6 +4,16 @@ j-batch-cmd-windows-android-pgb-helloworld
 A possible batch/cmd file to help with making phonegap easier to use on windows
 
 
+Note: If you windows PATH command is set properly (you installed with admin rights), then most of these files become the last line and you do not have to spend time setting up all the paths.
+
+
+
+
+
+
+
+
+
 Phoengap version 2. was very windows user friendly with batch .bat files to automate the build process. Version 3. has moved to the much better command line usage, which is very un windows friendly.Difficult to copy and paste the output from a DOS window. Pause command only works when the operation is successful, the DOS window disappears when the operation has an error, blah, blah, blah.
 
 
@@ -26,7 +36,7 @@ f-pluginDevice-dragDirHere.cmd   Adds a pluggin remember to drag the folder on t
 
 g-networked.cmd  Example of how a networked or USB drive can make things easier. This file is not complete but would be used with b-setAndRun.cmd if your system is running from a networked environment or if you have your files on a USB drive.
 
-
+h-serve-dragDirHere.cmd   This is brand new to phonegap about April 2014. Allows you to wirelessly connect to an Apple or Android device real time with your new App.  On the device an app called phonegap developer app, communicates with your files. Very cool and you do not have to pay Apple to see your app working briefly on your iPad etc.
 
 	
 All output from every file goes into the auto created xoutput.txt file. You have to continuously close and re-open this file but any of the output can now be copied to help with google searching for solutions. Also the DOS files will auto close even if there is an error, but the error information will be in the xoutput.txt file. I set wordpad to default to read .txt files since wordpad has better formatting than Notepad for phonegap files.
