@@ -8,7 +8,7 @@ REM use git --version  to check git path
 REM use node - v (small v) to check node path
 REM use phonegap -v (small v) to check phonegap path
 REM use plugman -v  (small v) to check plugman path
-REM
+REM DO  NOT CALL THIS BATCH FILE cmd.bat or command.bat or cmd.cmd or command.cmd as it will make an infinite loop
 
 
 cmd /f
