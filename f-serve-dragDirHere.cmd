@@ -14,4 +14,4 @@ set CLASSPATH=
 
 cd %1
 
-phonegap serve > ../xoutput.txt 2>&1
+phonegap serve 
