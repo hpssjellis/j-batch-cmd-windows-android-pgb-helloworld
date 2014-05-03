@@ -4,11 +4,7 @@ j-batch-cmd-windows-android-pgb-helloworld
 A possible batch/cmd file to help with making phonegap easier to use on windows
 
 
-Note: If you windows PATH command is set properly (you installed with admin rights), then most of these files become the last line and you do not have to spend time setting up all the paths.
-
-
-
-
+Note: If your windows PATH command is set properly (you installed with admin rights), then most of these files become the last line and you do not have to spend time setting up all the paths. I have made a folder called gotAdminRights for the easier batch files.
 
 
 
