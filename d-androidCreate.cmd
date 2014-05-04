@@ -1,5 +1,14 @@
+set APP_NAME=myAppName
 
-set APP_NAME=myTest2
+
+
+
+REM Change the above for each new App.
+REM use the foloowing if you want output to go to the xoutput.txt file
+REM phonegap create %APP_NAME% com.mysite.&APP_NAME% %APP_NAME% > xoutput.txt  2>&1
+
+
+
 
 
 
@@ -16,4 +25,5 @@ set PATH=C:\Windows;C:\Windows\System32;%ANT_HOME%\bin;%ANDROID_HOME%\tools;%AND
 set CLASSPATH=
 
 
-phonegap create %APP_NAME% com.mysite.&APP_NAME% %APP_NAME% > xoutput.txt  2>&1
+phonegap create %APP_NAME% com.mysite.&APP_NAME% %APP_NAME%
+pause 

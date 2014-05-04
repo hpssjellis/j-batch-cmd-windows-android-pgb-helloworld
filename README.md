@@ -4,6 +4,11 @@ j-batch-cmd-windows-android-pgb-helloworld
 A possible batch/cmd file to help with making phonegap easier to use on windows
 
 
+Updated May 2, 2014. Will need to test these out to see if they still fully work
+
+
+
+
 Note: If your windows PATH command is set properly (you installed with admin rights), then most of these files become the last line and you do not have to spend time setting up all the paths. I have made a folder called gotAdminRights for the easier batch files.
 
 
@@ -42,7 +47,7 @@ Note that you do not have to copy these files into the correct directories, all 
 	
 	
 	
-Final note. When using batch commands it is often easy to add to the end of the path command the variable %PATH% to attach the old path. That is very helpful except when debugging your batch files since the command is recursive if fired from the command line and you end up with a huge PATH with multiple entries. Works fine after debugging. Still not sure about folder file names with spaces. Surrounding them with double quotes sometimes seems to work. I just use the dir /x command to find the short file/dir names. 
+Final note. When using batch commands it is often easy to add to the end of the path command the variable %PATH% to attach the old path. That is very helpful except when debugging your batch files since the command is recursive if fired from the command line you end up with a huge PATH with multiple entries. Works fine after debugging. Still not sure about folder file names with spaces. Surrounding them with double quotes sometimes seems to work. I just use the dir /x command to find the short file/dir names. 
 
 Try http://rocksetta.com/html-to-phonegap-to-app/ for some other suggestions.	
 	

@@ -6,10 +6,14 @@ REM use android -h  to check Android path
 REM use ant -V  (captial V) to check ant path
 REM use git --version  to check git path
 REM use node - v (small v) to check node path
-REM use npm - v (small v) to check npm (node package manager) path
 REM use phonegap -v (small v) to check phonegap path
 REM use plugman -v  (small v) to check plugman path
 REM DO  NOT CALL THIS BATCH FILE cmd.bat or command.bat or cmd.cmd or command.cmd as it will make an infinite loop
+REM unlike the other files you could just set the path without the variable names such as
+
+set PATH=C:\Windows;C:\Windows\System32;
 
 
+
+path
 cmd /f

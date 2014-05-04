@@ -1,3 +1,13 @@
+REM You can replace the command with the following to show output into a file
+REM git --version     > xoutput.txt 2>&1
+
+
+
+
+
+
+
+
 set ANT_HOME=C:\phonegapmain\ant
 set ANDROID_HOME=C:\phonegapmain\androidDec2013\sdk
 set ANDROID_SDK_HOME=%USERPROFILE%
@@ -12,4 +22,5 @@ set CLASSPATH=
 
 
 
-git --version     > xoutput.txt 2>&1
+git --version
+pause 
