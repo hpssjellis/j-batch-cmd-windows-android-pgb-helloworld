@@ -4,7 +4,19 @@ j-batch-cmd-windows-android-pgb-helloworld
 A possible batch/cmd file to help with making phonegap easier to use on windows
 
 
-Updated May 2, 2014. Will need to test these out to see if they still fully work
+Updated May 2, 2014. Will need to test these out to see if they still fully work!!!
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
