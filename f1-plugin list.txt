@@ -1,0 +1,40 @@
+
+Command line
+
+phonegap plugin add https://github.com/apache/cordova-plugin-device.git
+
+
+Config.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Command Line
+phonegap plugin add https://github.com:apache/cordova-plugin-camera.git 
+
+
+
+
+
+in Config.xml
+
+
+<gap:plugin name="org.apache.cordova.camera" />
