@@ -37,6 +37,8 @@ cd %1
 REM Device Plugin
 REM add to config.xml the following line
 REM  <gap:plugin name="org.apache.cordova.device"  />
+REM script tag in your index.html file after your phonegap.js tag
+REM <script src="device.js"></script>
 REM remove REM from the next line to install plugin
 phonegap plugin add https://github.com/apache/cordova-plugin-device.git
 
@@ -49,9 +51,9 @@ phonegap plugin add https://github.com/apache/cordova-plugin-device.git
 
 REM  Plugin
 REM add to config.xml the following line
-REM  <gap:plugin name=""  />
+REM  <gap:plugin name="org.apache.cordova.camera"  />
 REM remove REM from the next line to install plugin
-REM phonegap plugin add 
+REM phonegap plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-camera.git
 
 
 
