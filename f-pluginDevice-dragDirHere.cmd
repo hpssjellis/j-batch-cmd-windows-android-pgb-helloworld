@@ -1,6 +1,4 @@
 
-set PLUGIN_NAME=https://github.com/apache/cordova-plugin-device.git
-
 
 
 REM Change the above URL for each plugin.
@@ -32,6 +30,226 @@ set CLASSPATH=
 
 cd %1
 
-phonegap plugin add %PLUGIN_NAME% 
+
+
+
+
+REM Device Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name="org.apache.cordova.device"  />
+REM remove REM from the next line to install plugin
+phonegap plugin add https://github.com/apache/cordova-plugin-device.git
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM  Plugin
+REM add to config.xml the following line
+REM  <gap:plugin name=""  />
+REM remove REM from the next line to install plugin
+REM phonegap plugin add 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pause 
+
+
+
+
+
+
+
+
+
+
+
+
 
