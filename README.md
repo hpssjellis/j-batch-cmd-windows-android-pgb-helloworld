@@ -21,6 +21,7 @@ Updated May 2, 2014. Will need to test these out to see if they still fully work
 
 
 
+
 Note: If your windows PATH command is set properly (you installed with admin rights), then most of these files become the last line and you do not have to spend time setting up all the paths. I have made a folder called gotAdminRights for the easier batch files.
 
 
